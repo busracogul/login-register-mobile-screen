@@ -33,7 +33,7 @@ const SignupScreen = () => {
             label="Confirm Password"
           />
         </View>
-        <CButton label="Sign Up" />
+        <CButton label="Sign Up" route="login" />
         <SocialLogin />
       </View>
 

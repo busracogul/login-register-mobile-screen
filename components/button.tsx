@@ -2,14 +2,15 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import React from "react";
 import { COLORS } from "../constants";
 import { useNavigation } from "@react-navigation/native";
-const CButton = ({ label }: { label: string }) => {
+
+const CButton = ({ label, prePage, currentPage, route }: { label: string, prePage?:string, currentPage?: string, route:string }) => {
   const navigation = useNavigation();
 
   return (
     <TouchableOpacity
       style={styles.primary_button}
       onPress={() => {
-        navigation.navigate("home" as never);
+        navigation.navigate(route as never);
       }}
     >
       <Text style={styles.primary_button_text}>{label}</Text>

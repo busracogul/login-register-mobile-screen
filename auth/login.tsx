@@ -38,7 +38,7 @@ const LoginScreen = () => {
           Forgot Password?
         </Text>
 
-        <CButton label="Log In" />
+        <CButton label="Log In" route="home" />
         <SocialLogin />
       </View>
 

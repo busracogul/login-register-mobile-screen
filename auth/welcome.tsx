@@ -3,16 +3,20 @@ import React from "react";
 import { COLORS } from "../constants";
 import CButton from "../components/button";
 
-const HomeScreen = () => {
+const WelcomeScreen = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ paddingHorizontal: 28, flex: 1 }}>
-        <Image style={styles.image} source={require("../assets/welcome.png")} />
-        <Text style={styles.title}>Welcome!</Text>
+        <Image
+          style={styles.image}
+          source={require("../assets/shopping.png")}
+        />
+        <Text style={styles.title}>All you need is in one place</Text>
         <Text style={styles.description}>
-          Thank you for creating an account. Enjoy your experience in our app.
+          The world's largest fashion e-commerce has arrived. Shop now!
         </Text>
-        <CButton label="Get Start" route="welcome"/>
+        <CButton label="Log In" route="login" />
+        <CButton label="Sign Up" route="signup" />
       </View>
     </SafeAreaView>
   );
@@ -36,4 +40,4 @@ const styles = StyleSheet.create({
     marginVertical: 16,
   },
 });
-export default HomeScreen;
+export default WelcomeScreen;
