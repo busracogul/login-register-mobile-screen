@@ -44,3 +44,11 @@ Bu proje, kullanıcıların kolayca hesap oluşturabileceği veya var olan hesap
 [Behance - Kayıt & Giriş Ekranları](https://www.behance.net/gallery/207716351/Sign-up-Login-Screens) tasarımından esinlenilmiştir.
 
 
+## Proje Görselleri
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="assets/welcome-screen.png" alt="Welcome Sayfası" width="200"/>
+  <img src="assets/login-screen.png" alt="Login Sayfası" width="200"/>
+  <img src="assets/signup-screen.png" alt="Signup Sayfası" width="200"/>
+  <img src="assets/home-screen.png" alt="Ana Sayfa" width="200"/>
+</div>
